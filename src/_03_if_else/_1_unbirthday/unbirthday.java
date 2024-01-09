@@ -4,6 +4,14 @@ import javax.swing.JOptionPane;
 
 public class unbirthday {
 
-
-JOptionPane.showMessageDialog(null,"BORING");
+public static void main(String[] args) {
+	String question = JOptionPane.showInputDialog("is your birthday today!");
+	if (question.equals ("yes")) {
+		String question2 = JOptionPane.showInputDialog("happy birthday!");
+	}
+	else  {
+		String question3 = JOptionPane.showInputDialog("happy unbirthday!");
+	}
 }
+}
+
