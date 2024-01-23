@@ -22,14 +22,14 @@ public class SecretMessageBox {
 	
 	// 1. Set a password in a String variable
 	String Code = "1234";
-	String Message = "hi";
+	String Message =  JOptionPane.showInputDialog("what is a secret message");
 	// 2. Using a pop-up, ask the first person for a secret message and store it in a variable
-			String hi = JOptionPane.showInputDialog("what is a secret message");
+	
 	// 3. Now use a pop-up to tell the NEXT user that they can only see the secret message 
 	//    if they can guess the passcode
-			String the = JOptionPane.showInputDialog("what is the secret code to unlock the message");
+			String geuss = JOptionPane.showInputDialog("what is the secret code to unlock the message");
 	// 4. If their guess matches the password, show them the secret message
-			if (the.equals ("1234"))  {
+			if (geuss.equals ("1234"))  {
 				  JOptionPane.showMessageDialog(null, Message);
 	// 5. If the password does not match, pop-up "INTRUDER!!"
 			}else {

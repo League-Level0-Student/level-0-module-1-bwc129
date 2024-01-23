@@ -15,7 +15,7 @@ String question = JOptionPane.showInputDialog("what is your name!");
 if (question.equals ("reed"))
 JOptionPane.showMessageDialog(null, "you are fun");
 else {
-
+	JOptionPane.showMessageDialog(null, "your not reed");
 	}
 }
 }
