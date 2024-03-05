@@ -10,7 +10,7 @@ public class MyAges {
 		//        Start its value at zero.
 		
 		// Change the value of yourCurrentAge to match your age
-		int yourCurrentAge = 11;
+		int yourCurrentAge = 12;
 				
 		int age =0;
 		//  WHILE LOOP. Start a while loop to repeat while age <= yourCurrentAge
@@ -25,7 +25,7 @@ public class MyAges {
 		
 		/*** Now you are going to do the same thing, but this time use a for loop. 
 		 *   Notice how most of the information is the same, it is just written 
-		 *   in a different way.
+		 *   in a differentway.
 		 **/
 		
 		//  FOR LOOP. Start a for loop to repeat while age <= your age, like this:
